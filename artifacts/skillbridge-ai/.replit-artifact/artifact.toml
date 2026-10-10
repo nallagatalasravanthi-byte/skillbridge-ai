@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "SkillBridge AI"
+description = "A responsive learning app for students to practice Python, Data Structures, Artificial Intelligence, Mathematics, and Science quizzes, identify concepts to improve, and track progress locally."
+version = "1.0.0"
+id = "artifacts/skillbridge-ai"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24753
+
+[services.development]
+run = "pnpm --filter @workspace/skillbridge-ai run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/skillbridge-ai", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/skillbridge-ai/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24753"
+BASE_PATH = "/"

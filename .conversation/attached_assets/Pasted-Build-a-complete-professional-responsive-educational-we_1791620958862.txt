@@ -1,0 +1,73 @@
+Build a complete, professional, responsive educational web application
+called SkillBridge AI.
+
+TAGLINE:
+"Identify your learning gaps. Build your skills. Bridge your future."
+
+PURPOSE:
+Help students identify their weak concepts through quizzes and receive
+personalized learning recommendations.
+
+DESIGN:
+Create a premium educational dashboard using a white background,
+navy blue and purple gradients, modern typography, rounded cards,
+subtle animations, and clean spacing.
+
+FEATURES:
+
+1. DASHBOARD
+- Welcome section with SkillBridge AI branding.
+- Cards for quizzes completed, average score, and learning progress.
+- Navigation to Dashboard, Learn, Quiz, Recommendations, and Progress.
+
+2. SUBJECTS
+Include Python, Data Structures, Artificial Intelligence, Mathematics,
+and Science.
+Display attractive subject cards with icons and descriptions.
+
+3. INTERACTIVE QUIZ
+- Provide multiple-choice questions for every subject.
+- Allow users to select answers and submit them.
+- Calculate scores automatically.
+- Show correct answers and short explanations.
+- Tag each question with its related concept.
+
+4. KNOWLEDGE GAP DETECTION
+- Analyze incorrect answers and quiz performance.
+- Identify concepts that need improvement.
+- Display weak concepts clearly.
+- Use transparent rule-based logic without requiring an external API.
+
+5. PERSONALIZED RECOMMENDATIONS
+- Recommend concepts to revise based on quiz results.
+- Provide learning tips and additional practice suggestions.
+- Allow users to retake quizzes.
+
+6. PROGRESS TRACKING
+- Show quiz history and score improvements.
+- Save progress using browser localStorage where appropriate.
+- Display helpful empty states for new learners.
+
+7. SAMPLE QUESTIONS
+Include several useful multiple-choice questions per subject,
+with answer options, correct answers, explanations, and concept tags.
+
+TECHNICAL REQUIREMENTS:
+- Build a working application using React and TypeScript.
+- Use reusable components and clean code.
+- Make all navigation links and buttons functional.
+- Ensure responsive desktop and mobile layouts.
+- Avoid paid APIs and external AI API dependencies.
+- Do not display fake results as actual student performance.
+- Include input validation and basic error handling.
+
+DELIVERABLES:
+- Complete working source code.
+- README.md with project description, features, and setup instructions.
+- Instructions to run and deploy the application.
+- Test the main features and fix errors.
+
+IMPORTANT:
+Build the functional application, not just a landing page or static
+design. Prioritize a working quiz, knowledge-gap detection,
+personalized recommendations, and progress tracking.
